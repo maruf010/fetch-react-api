@@ -1,10 +1,11 @@
-import { use } from "react"
-
-export default function Friends({friendsPromise}){
-    const friends = use(friendsPromise)
+export default function Friend({friend}){
+    // console.log(friend)
+    const {name, email ,phone} = friend;
     return(
-        <div>
-            <h3>Friend : {friends.length}</h3>
+        <div className="friend">
+            <h3>Name: {name}</h3>
+            <small>Phone : {phone} </small>
+            <p>Email : {email}</p>
         </div>
     )
 }

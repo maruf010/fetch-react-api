@@ -42,4 +42,15 @@
 }
 .user-card{
   border: 2px solid yellow;
+  margin-top: 20px;
+}
+.friends-card{
+  border: 2px solid blue;
+  margin-top: 20px;
+}
+.friend{
+  border: 2px solid yellowgreen;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
 }
